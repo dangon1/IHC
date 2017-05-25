@@ -27,10 +27,10 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Mapa', component: MapaPage },
+      { title: 'Consumo', component: InformacoesPage },
       { title: 'Desperdício', component: DesperdicioPage },
       { title: 'Dicas', component: DicasPage },
-      { title: 'Estatísticas', component: EstatisticasPage },
-      { title: 'Informações', component: InformacoesPage }
+      { title: 'Estatísticas', component: EstatisticasPage }
     ];
 
   }
